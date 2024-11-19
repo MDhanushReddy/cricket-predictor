@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="productor.css">
+    <title>Cricket Predictor</title>
+
+   <script src="productor.js"></script>
+   
+</head>
+<center>
+<body  background="https://w0.peakpx.com/wallpaper/30/486/HD-wallpaper-cricket-batsman-cricket-batsman-night-thumbnail.jpg"  >
+
+   <img src="https://www.jansatta.com/wp-content/uploads/2023/09/ICC-World-Cup-Captains-1.jpg">
+   <div id="one" class="container">
+    <iframe src="https://widget.crictimes.org/" style="width:100%;min-height: 450px;" frameborder="0" scrolling="yes"></iframe>
+    
+   
+        <h1 style="color:white" >Cricket Predictor</h1>
+        <form id="predictionForm">
+            <label for="team">Select Your Team:</label>
+            <select id="team" name="team">
+                <option value="team1">Team 1</option>
+                <option value="team2">Team 2</option>
+            </select>
+
+            <label color="black" for="score">Predict Score:</label>
+            <input type="number" id="score" name="score" placeholder="Enter score">
+
+            <a  id="one" href=" "
+            <button  type="submit">Submit Prediction</button>  </a>
+           </div>'</div>    </div>'</div>   </div>'</div>
+        </center>
+        </form>
+
+        <div id="result"></div>
+     </div>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+let team1Score = 0;
+let team2Score = 0;
+let currentOver = 0;
+
+function simulateNextBall() {
+    
+    const runsScored = Math.floor(Math.random() * 7); 
+    team1Score += runsScored;
+
+   
+    document.getElementById("currentScore").innerText = Current Score: ${team1Score}/${currentOver};
+    
+    
+
+    currentOver++;
